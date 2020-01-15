@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <link rel="icon" type="text/ico" href="Crafty_hands.ico" />
+  <title>Play Happy The Man</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+
+  <div id="player">
+    <h4><i class="material-icons">equalizer</i> Crafty Hands</h4>
+    <div class="card">
+      <div class="card-image">
+        <a href="#" class="btn-floating btn-large halfway-fab">
+          <i class="material-icons" id="play-pause">play_arrow</i>
+        </a>
+      </div>
+      <div class="card-content">
+        <h5>Título</h5>
+        <p class="artista">Artista</p>
+
+        <div class="row valign-wrapper">
+          <div class="col s2" id="current-duration">00:00</div>
+          <div class="col s6 range-field valign-wrapper">
+            <input type="range" min="0" max="0" id="seekbar" step="1">
+          </div>
+          <div class="col s2" id="total-duration">00:00</div>
+          <div>
+            <a href="#">
+              <i class="material-icons" id="vol">volume_up</i>
+            </a>
+          </div>
+          <div class="col s3 range-field valign-wrapper">
+            <input type="range" min="0" max="100" id="vol-control" step="1">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
+
+/* https://www.youtube.com/watch?v=vqrjFnq3-uo */
